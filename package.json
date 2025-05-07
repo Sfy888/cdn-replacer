@@ -6,6 +6,7 @@
   "repository": "https://github.com/Sfy888/cdn-replacer",
   "license": "MIT",
   "types": "index.d.ts",
+  "type": "module",
   "module": "index.js",
   "keywords": [
     "cdn-replacer",
@@ -25,5 +26,5 @@
   },
   "engines": {
     "node": ">=16.0.0"
-  }
+  },
 }
