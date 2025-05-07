@@ -1,13 +1,12 @@
 {
 	"name": "cdn-replacer",
 	"version": "1.0.0",
-	"type": "module",
 	"description": "vite public静态资源使用cdn地址",
 	"homepage": "https://github.com/Sfy888/cdn-replacer",
 	"repository": "https://github.com/Sfy888/cdn-replacer",
 	"license": "MIT",
 	"types": "index.d.ts",
-	"main": "index.js",
+	"module": "index.js",
 	"keywords": [
 		"cdn-replacer",
 		"cdn",
