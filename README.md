@@ -55,4 +55,5 @@ pnpm run build
 | staticPrefix | public静态资源前缀，默认static，前后无需夹\/，如果是多级目录前缀，则写为“static\/cdn”,意思是将public下static里面cdn的资源都变成cdn链接 | string |  |
 | ignore       | 文件及文件夹忽略规则。如果你使用空字符串 `''`，将不会忽略任何文件 | string[]或者string | `''` |
 | enabled      | 是否启用本插件 | boolean | true |
+| staticResourceDirectory      | 静态资源目录 | string | public |
 
