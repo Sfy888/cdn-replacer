@@ -1,6 +1,6 @@
 {
   "name": "cdn-replacer",
-  "version": "1.0.0-1.2",
+  "version": "1.0.0-1.3",
   "description": "vite public静态资源使用cdn地址",
   "homepage": "https://github.com/Sfy888/cdn-replacer",
   "repository": "https://github.com/Sfy888/cdn-replacer",
@@ -18,8 +18,7 @@
   },
   "dependencies": {
     "glob": "^10.3.10",
-    "conventional-changelog-cli": "2.2.2",
-    "picocolors": "^1.0.0"
+    "conventional-changelog-cli": "2.2.2"
   },
   "peerDependencies": {
     "vite": "^5.0.0"

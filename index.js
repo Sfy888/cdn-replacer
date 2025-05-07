@@ -1,4 +1,3 @@
-import color from 'picocolors'; // 用于控制台输出颜色
 import { globSync } from 'glob'; // 用于文件匹配
 import fs from 'fs'; // 文件系统操作
 import path from 'path'; // 路径处理
@@ -106,7 +105,7 @@ export default function cdnReplacer(options) {
           if (newContent !== fileContent) {
             fs.writeFileSync(filePath, newContent, 'utf8');
             count.file++; // 增加文件计数
-            console.log(`Updated: ${color.green(buildConfig.outDir + ourDirFilePath)}`);
+            console.log(`Updated: ${buildConfig.outDir + ourDirFilePath}`);
           }
         }
         // 计算并输出处理耗时
