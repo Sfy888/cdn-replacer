@@ -1,35 +1,32 @@
 {
-	"name": "cdn-replacer",
-	"version": "1.0.0-1.0",
-	"description": "vite public静态资源使用cdn地址",
-	"homepage": "https://github.com/Sfy888/cdn-replacer",
-	"repository": "https://github.com/Sfy888/cdn-replacer",
-	"license": "MIT",
-	"types": "index.d.ts",
-	"module": "index.js",
-	"keywords": [
-		"cdn-replacer",
-		"cdn",
-		"link"
-	],
-	"scripts": {
-		"example:build": "pnpm -C example build",
-		"changelog": "conventional-changelog -i CHANGELOG.md -s"
-	},
-	"dependencies": {
-		"glob": "^10.3.10",
-		"picocolors": "^1.0.0"
-	},
-	"devDependencies": {
-		"conventional-changelog-cli": "2.2.2"
-	},
-	"peerDependencies": {
-		"vite": "^5.0.0"
-	},
-	"publishConfig": {
-		"@hiteochew:registry": "https://npm.pkg.github.com"
-	},
-	"engines": {
-		"node": ">=16.0.0"
-	}
+  "name": "cdn-replacer",
+  "version": "1.0.0-1.0",
+  "description": "vite public静态资源使用cdn地址",
+  "homepage": "https://github.com/Sfy888/cdn-replacer",
+  "repository": "https://github.com/Sfy888/cdn-replacer",
+  "license": "MIT",
+  "types": "index.d.ts",
+  "module": "index.js",
+  "keywords": [
+    "cdn-replacer",
+    "cdn",
+    "link"
+  ],
+  "scripts": {
+    "example:build": "pnpm -C example build",
+    "changelog": "conventional-changelog -i CHANGELOG.md -s"
+  },
+  "dependencies": {
+    "glob": "^10.3.10"
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "2.2.2",
+    "picocolors": "^1.0.0"
+  },
+  "peerDependencies": {
+    "vite": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
 }
