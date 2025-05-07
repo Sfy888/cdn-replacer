@@ -1,0 +1,5 @@
+.github
+.npmrc
+.local
+/example
+/node_modules
